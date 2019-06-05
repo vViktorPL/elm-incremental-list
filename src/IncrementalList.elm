@@ -13,7 +13,7 @@ relative value and number of succeeding/preceding values to be generated.
 Use positive number to generate succeeding values, and
 negative number to generate values preceding the provided value:
 
-    # Integers
+    -- Integers
     prevInt = \n -> n - 1
     nextInt = (+) 1
     intRange = range prevInt nextInt
@@ -21,7 +21,7 @@ negative number to generate values preceding the provided value:
     intRange 1 5 == [1,2,3,4,5]
     intRange 5 -5 == [1,2,3,4,5]
 
-    # Characters
+    -- Characters
     prevChar = Char.toCode >> (+) -1 >> Char.fromCode
     nextChar = Char.toCode >> (+) 1 >> Char.fromCode
     charRange = range prevChar nextChar

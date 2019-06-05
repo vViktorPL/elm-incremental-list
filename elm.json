@@ -3,7 +3,7 @@
     "name": "vViktorPL/elm-incremental-list",
     "summary": "Generate list range based on increment and decrease functions",
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "exposed-modules": [
         "IncrementalList"
     ],

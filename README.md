@@ -24,7 +24,7 @@ and you would like to generate range of dates from 2019-01-01 to 2019-01-07.
         IncrementalList.range prevDay nextDay
 
     startingDate =
-        { year = 2015
+        { year = 2019
         , month = 1
         , day = 1
         }
